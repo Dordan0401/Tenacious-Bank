@@ -1,0 +1,16 @@
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Tenacious.Models.dll.config
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Tenacious.Models.dll
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Tenacious.Models.pdb
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\obj\Debug\Tenacious.Models.csprojAssemblyReference.cache
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\obj\Debug\Tenacious.Models.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\obj\Debug\Tenacious.Models.csproj.CopyComplete
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\obj\Debug\Tenacious.Models.dll
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\obj\Debug\Tenacious.Models.pdb

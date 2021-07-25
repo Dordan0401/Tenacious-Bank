@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenaciousBank.WebAPI", "TenaciousBank\TenaciousBank.WebAPI.csproj", "{B0ED23AE-BBAF-4068-9A23-A41C4B5CE9B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenacious.Data", "Tenacious.Data\Tenacious.Data.csproj", "{BA099C94-D053-4BD6-900B-DDA27DA5DC98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenacious.Models", "Tenacious.Models\Tenacious.Models.csproj", "{AA68B140-EF95-47EB-AC3B-E84C81559A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenacious.Services", "Tenacious.Services\Tenacious.Services.csproj", "{F8676A61-2045-4801-8B1F-229F155A5CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0ED23AE-BBAF-4068-9A23-A41C4B5CE9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ED23AE-BBAF-4068-9A23-A41C4B5CE9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ED23AE-BBAF-4068-9A23-A41C4B5CE9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ED23AE-BBAF-4068-9A23-A41C4B5CE9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA099C94-D053-4BD6-900B-DDA27DA5DC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA099C94-D053-4BD6-900B-DDA27DA5DC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA099C94-D053-4BD6-900B-DDA27DA5DC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA099C94-D053-4BD6-900B-DDA27DA5DC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA68B140-EF95-47EB-AC3B-E84C81559A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA68B140-EF95-47EB-AC3B-E84C81559A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA68B140-EF95-47EB-AC3B-E84C81559A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA68B140-EF95-47EB-AC3B-E84C81559A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8676A61-2045-4801-8B1F-229F155A5CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8676A61-2045-4801-8B1F-229F155A5CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8676A61-2045-4801-8B1F-229F155A5CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8676A61-2045-4801-8B1F-229F155A5CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28173D0B-7C82-4D6C-A28F-0E1FB24B7E10}
+	EndGlobalSection
+EndGlobal
