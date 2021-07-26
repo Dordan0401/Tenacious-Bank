@@ -9,7 +9,6 @@ namespace Tenacious.Models
 {
     public class BankAcctDeposit
     {
-        [Required]
         public decimal InitialBalance { get; set; }
         [Required]
         public decimal DepositAmount { get; set; }

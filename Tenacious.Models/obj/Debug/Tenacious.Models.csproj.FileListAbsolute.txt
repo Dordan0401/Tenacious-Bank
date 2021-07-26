@@ -14,3 +14,6 @@ C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\obj\Debug\Tenacious.
 C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\obj\Debug\Tenacious.Models.csproj.CopyComplete
 C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\obj\Debug\Tenacious.Models.dll
 C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\obj\Debug\Tenacious.Models.pdb
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Tenacious.Data.dll
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Tenacious.Data.pdb
+C:\Users\Daniel\source\repos\TenaciousBank\Tenacious.Models\bin\Debug\Tenacious.Data.dll.config

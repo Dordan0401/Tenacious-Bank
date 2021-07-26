@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Tenacious.Data
 {
-    public enum AccountType { Checking, CorporateInvest, IndividualInvest}
+    public enum AccountType { Checking, CorporateInvest, IndividualInvest }
     public class BankAcct
     {
         [Key]
@@ -18,13 +18,6 @@ namespace Tenacious.Data
         public string OwnerFirst { get; set; }
         [Required]
         public string OwnerLast { get; set; }
-        public string OwnerName
-        {
-            get
-            {
-                return OwnerFirst + " " + OwnerLast;
-            }
-        }
         [Required]
         [Range(0, 999999999)]
         public decimal Balance { get; set; }

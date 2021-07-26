@@ -11,7 +11,8 @@ namespace Tenacious.Models
     {
         public int AccountNumber { get; set; }
         public AccountType AccountType { get; set; }
-        public string OwnerName { get; set; }
+        public string OwnerFirst { get; set; }
+        public string OwnerLast { get; set; }
         public decimal Balance { get; set; }
     }
 }

@@ -38,27 +38,23 @@ namespace Tenacious.Services
             }
         }
 
-
-        //Used to view all accounts for a specific user
+        //Get All Bank accounts
         public List<BankAcctDetail> GetBankAccts()
         {
             using (var context = new ApplicationDbContext())
             {
                 var accounts = context
                                 .Accounts
-                                .Where(a => a.AccountOwnerId == _userId);
+                                .Select(a => new BankAcctDetail
+                                {
+                                    OwnerFirst = a.OwnerFirst,
+                                    OwnerLast = a.OwnerLast,
+                                    AccountNumber = a.AccountNumber,
+                                    Balance = a.Balance,
+                                    AccountType = a.AccountType
+                                }).ToList();
 
-                var accountDetail = accounts
-                                    .Select(a =>
-                                    new BankAcctDetail
-                                    {
-                                        OwnerName = a.OwnerName,
-                                        AccountNumber = a.AccountNumber,
-                                        Balance = a.Balance,
-                                        AccountType = a.AccountType
-                                    });
-
-                return accountDetail.ToList();
+                return accounts;
             }
         }
 
@@ -74,7 +70,8 @@ namespace Tenacious.Services
                 return new BankAcctDetail()
                 {
                     AccountNumber = account.AccountNumber,
-                    OwnerName = account.OwnerName,
+                    OwnerFirst = account.OwnerFirst,
+                    OwnerLast = account.OwnerLast,
                     AccountType = account.AccountType,
                     Balance = account.Balance
                 };
@@ -89,6 +86,8 @@ namespace Tenacious.Services
                 var account = context
                               .Accounts
                               .Single(a => a.AccountNumber == id);
+
+                model.InitialBalance = account.Balance;
 
                 account.Balance = model.NewBalance;
 
@@ -109,6 +108,8 @@ namespace Tenacious.Services
                 {
                     return false;
                 }
+
+                model.InitialBalance = account.Balance;
 
                 account.Balance = model.NewBalance;
 
@@ -140,6 +141,21 @@ namespace Tenacious.Services
                 }
 
                 return false;
+            }
+        }
+
+        // Close Account
+        public bool DeleteAcct(int id)
+        {
+            using(var context = new ApplicationDbContext())
+            {
+                var account = context
+                              .Accounts
+                              .Single(a => a.AccountNumber == id);
+
+                context.Accounts.Remove(account);
+
+                return context.SaveChanges() == 1;
             }
         }
     }

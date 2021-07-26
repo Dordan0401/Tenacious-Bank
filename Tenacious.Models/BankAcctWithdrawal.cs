@@ -9,10 +9,8 @@ namespace Tenacious.Models
 {
     public class BankAcctWithdrawal
     {
-        [Required]
         public decimal InitialBalance { get; set; }
         [Required]
-        [Range(0, 1000)]
         public decimal WithdrawalAmount { get; set; }
         public decimal NewBalance
         {
